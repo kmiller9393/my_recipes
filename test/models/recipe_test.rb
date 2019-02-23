@@ -56,4 +56,5 @@ class RecipeTest < ActiveSupport::TestCase
         @recipe.description = "a" * 19
         assert_not @recipe.valid?
     end
+    
 end
